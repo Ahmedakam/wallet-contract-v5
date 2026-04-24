@@ -1,7 +1,7 @@
-name: NodeJS with Webpack
+name: UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
 
-on:
-  push:
+on:UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
+  push:UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
@@ -10,12 +10,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
+    strategy:UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
       matrix:
         node-version: [18.x, 20.x, 22.x]
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: UQARIQeRt55gDYdCp96da0wV9_sFnpg1m2rEHLXw9HTdu9LC
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
